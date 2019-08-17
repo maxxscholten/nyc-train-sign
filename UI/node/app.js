@@ -3,7 +3,7 @@ const fs = require('fs')
 const path = require('path')
 const axios = require("axios")
 const {
-  trainId,
+  trainName,
   stationName,
   direction,
   stationId,

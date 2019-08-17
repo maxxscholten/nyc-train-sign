@@ -58,11 +58,11 @@ router.route('/schedule/:id')
   })
 
 
-router.route('/schedule/:id/:trainId/:direction')
+router.route('/schedule/:id/:trainName/:direction')
   .get(async (req, res ) => {
     const result = await mta.schedule(req.params.id)
     const direction = req.params.direction
-    let filteredResult = removeFromTree(result.schedule[req.params.id], req.params.trainId)
+    let filteredResult = removeFromTree(result.schedule[req.params.id], req.params.trainName)
     filteredResult[direction].forEach(arrivalInfo => {
       arrivalInfo.relativeTime = timeToRelative(arrivalInfo.arrivalTime)
     })
