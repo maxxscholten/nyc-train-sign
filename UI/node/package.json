@@ -1,0 +1,33 @@
+{
+  "name": "nyc-train-light",
+  "version": "1.0.0",
+  "description": "Display NYC train info on an LED matrix via raspberry pi.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "nyc",
+    "train",
+    "raspberry",
+    "pi",
+    "led",
+    "led",
+    "matrix",
+    "train",
+    "nan",
+    "info",
+    "rpi",
+    "rpi-rgb",
+    "rpi-rgb-led-matrix"
+  ],
+  "author": "Maxx Scholten",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "easybotics-rpi-rgb-led-matrix": "^0.2.6",
+    "nan": "^2.12.1",
+    "node-gyp": "^3.8.0"
+  }
+}

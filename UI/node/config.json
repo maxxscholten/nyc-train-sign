@@ -1,0 +1,10 @@
+{
+  "stationId": 249,
+  "direction": "N",
+  "stationName": "Kingston",
+  "trainName": "3",
+  "textColor": [0, 110, 0],
+  "circleColor": [110, 0, 0],
+  "circleNumberColor": [0, 0, 0],
+  "loadingTextColor": [255, 255, 255]
+}

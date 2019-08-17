@@ -1,0 +1,25 @@
+{
+  "name": "nyc-train-light",
+  "version": "1.0.0",
+  "description": "An express.js server for displaying subway information from the MTA API.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "nyc",
+    "train",
+    "raspberry",
+    "pi",
+    "led",
+    "MTA",
+    "server"
+  ],
+  "author": "Maxx Scholten",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mta-gtfs": "^1.1.0"
+  }
+}
