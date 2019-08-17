@@ -19,6 +19,8 @@
   * https://www.adafruit.com/product/2277
   * https://www.alibaba.com/product-detail/Cheapest-P5-RGB-pixel-panel-HD_60814325723.html?spm=a2700.7724838.2017115.1.5c6e13d0O8IYUq&s=p
 
+![Front of 64x32 RGB LED Matrix display](https://imgur.com/G9VgqeS.jpg)
+
 
 # Hardware
 ### Raspberry Pi & RGB Matrix Bonnet
@@ -31,8 +33,12 @@ The Raspberry Pi/Bonnet combo can be discreetly fasted to the back of the displa
 ### RGB LED Matrix
 The display should come with a power cable and a data cable. It might even come with multiple data cables in the event that you want to bridge dipslays. The data cable will plug directly into the back of the display and your Bonnet/HAT. The power cable will also plugin into the back of the display and two pronged ends will connect to slotted terminals with screws on the Bonnet/HAT.
 
+
 ### Power cable
 The power cable plugs directly into the Bonnet/HAT and will share power to both the Raspberry Pi and the display.
+
+![Backside of display with Raspberry Pi & RGB Matrix HAT](https://imgur.com/X1i7x47.jpg)
+
 
 
 # Software
@@ -63,8 +69,6 @@ $ npm install
 $ cd nyc-train-sign/UI/node
 $ npm install
 ```
-
-
 
 ## Configuration
 
@@ -176,7 +180,6 @@ The REST API for the server appliation is described below. Data formatted and pa
     "Date": "08/16/2019",
     "Time": " 6:06PM"
   },
-  ...
 ]
 ```
 
@@ -238,7 +241,6 @@ The REST API for the server appliation is described below. Data formatted and pa
     "location_type": "1",
     "parent_station": ""
   },
-  ...
 }
 ```
 
@@ -265,7 +267,6 @@ The REST API for the server appliation is described below. Data formatted and pa
   "stop_url": "",
   "location_type": "1",
   "parent_station": ""
-}
 }
 ```
 
@@ -294,7 +295,6 @@ The REST API for the server appliation is described below. Data formatted and pa
       "arrivalTime": 1566000654,
       "departureTime": 1566000654
     },
-    ...
   ],
   "S": [
     {
@@ -309,7 +309,6 @@ The REST API for the server appliation is described below. Data formatted and pa
       "arrivalTime": 1566001280,
       "departureTime": 1566001280
     },
-    ...
   ]
 }
 ```
@@ -339,7 +338,6 @@ The REST API for the server appliation is described below. Data formatted and pa
       "arrivalTime": 1566000654,
       "departureTime": 1566000654
     },
-    ...
   ]
 }
 ```
