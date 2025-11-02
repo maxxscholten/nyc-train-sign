@@ -74,17 +74,17 @@ drawLoading = () => {
   }
 }
 
-drawTrainCircle = (x, y, color) => {
+drawTrainCircle = (x, y, ...color) => {
   // Draw circle with lines
-  matrix.drawLine(x+2, y+0, x+6, y+0, color)
-  matrix.drawLine(x+1, y+1, x+7, y+1, color)
-  matrix.drawLine(x+0, y+2, x+8, y+2, color)
-  matrix.drawLine(x+0, y+3, x+8, y+3, color)
-  matrix.drawLine(x+0, y+4, x+8, y+4, color)
-  matrix.drawLine(x+0, y+5, x+8, y+5, color)
-  matrix.drawLine(x+0, y+6, x+8, y+6, color)
-  matrix.drawLine(x+1, y+7, x+7, y+7, color)
-  matrix.drawLine(x+2, y+8, x+6, y+8, color)
+  matrix.drawLine(x+2, y+0, x+6, y+0, ...color)
+  matrix.drawLine(x+1, y+1, x+7, y+1, ...color)
+  matrix.drawLine(x+0, y+2, x+8, y+2, ...color)
+  matrix.drawLine(x+0, y+3, x+8, y+3, ...color)
+  matrix.drawLine(x+0, y+4, x+8, y+4, ...color)
+  matrix.drawLine(x+0, y+5, x+8, y+5, ...color)
+  matrix.drawLine(x+0, y+6, x+8, y+6, ...color)
+  matrix.drawLine(x+1, y+7, x+7, y+7, ...color)
+  matrix.drawLine(x+2, y+8, x+6, y+8, ...color)
 }
 
 drawRows = (minsTrain1, minsTrain2) => {
