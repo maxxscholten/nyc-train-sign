@@ -8,7 +8,7 @@
 
 ## Requirements
 * MTA API Key
-  * https://datamine.mta.info/
+  * https://api.mta.info/
 * Raspberry Pi (w/ headers and Wifi)
 * SD Card (for the Raspberry Pi)
 * RGB Matrix Bonnet (or HAT)
